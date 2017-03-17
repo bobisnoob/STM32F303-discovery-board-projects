@@ -1,6 +1,6 @@
 /**
 * File Name		 : DMAdac.c
-* PROJECT		 : CNTR8000 Assignment #4
+* PROJECT		 : CNTR8000 Assignment #4 
 * PROGRAMMERS	 : Abdel Alkuor, Nimal Kirshna (Group #2)
 * FIRST VERSION  : 2017-02-08
 * Description    : This program has three main functions
