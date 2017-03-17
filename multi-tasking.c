@@ -45,7 +45,7 @@ typedef struct Task_s
 
 typedef struct 
 {
-	void(*f)(void *data);
+    void(*f)(void *data);
 	char * Name;
 }functionsPool;
 
@@ -104,7 +104,6 @@ void roletteWheel(void *data)
 		roletteFlag =0;
 	}
 	HAL_TIM_Base_Start_IT(&htim16);
-
 }
 /* FUNCTION      : LCD1
  * DESCRIPTION   : This function prints "Hello World"
@@ -119,7 +118,6 @@ void LCD1(void *data)
 	LCD1602A_WriteLineOne(0,string);
 	HAL_Delay(200);
 	clearLCD();
-
 }
 
 /* FUNCTION      : LCD2
@@ -147,7 +145,6 @@ void LCD2(void *data)
 
 void initfunctions(int mode)
 {
-
 	buildFunctions(LCD1,"LCD1");
 	buildFunctions(LCD2,"LCD2");
 	buildFunctions(roletteWheel,"roletteWheel");	
@@ -162,7 +159,6 @@ ADD_CMD("initfunctions",initfunctions,"      build functions")
 */
 void printfunctionnames(int mode)
 {
-
 	for(int i= 0 ; i<EXSITED_FUCNTION_SIZE; i++)
 	{	
 		if(i==0 && availablefucntions[i].Name==NULL)
