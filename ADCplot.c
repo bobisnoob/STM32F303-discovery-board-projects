@@ -158,7 +158,7 @@ void adc(int mode)
     {
         printf("Error in Channel Config\n");
     }
-     
+      
     HAL_ADC_Start(&hdac1);
     printf("Time(s) Voltage(v/10)\n");
 
