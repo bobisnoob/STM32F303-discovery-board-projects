@@ -36,7 +36,7 @@ static int adcInitFlag = 0;    // To make sure it doesn't re initialize
 							  // initialized before using adc command	 
 static int dacInitFlag = 0;   //  and same for dac initialization
 volatile uint8_t amplitudeFlag;
-volatile uint8_t frequencyFlag;
+volatile uint8_t frequencyFlag; 
 volatile uint8_t amplitudeFactor;
 volatile uint8_t frequencyFactor;
 uint8_t potentiometerValue[2];
