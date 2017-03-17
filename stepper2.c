@@ -5,10 +5,10 @@
 * FIRST VERSION  : 2017-03-08
 * Description    : This program runs the stepper motor in microstepping mode
 				   There are two main functions "stepspeed"and "AA_Stepper".
-			     	  "stepspeed" function allow the user to enter the direction of
+			       "stepspeed" function allow the user to enter the direction of
 				   the spinning stepper motor with a delay that will set the
 				   speed of the motor. The second function "AA_stepper"
-	     		  	   allow the user to run queue motion triplet(speed,direction, and
+	     		   allow the user to run queue motion triplet(speed,direction, and
 				   value at which the motor will keep spinning. "AA_stepper" function
 				   uses PWM(timer15, channel_1) to run stepper motor at variable
 				   speeds, by changing the frequency of the PWM and keeping the
